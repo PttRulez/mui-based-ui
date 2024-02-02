@@ -1,0 +1,24 @@
+{
+  "name": "@pttrulez/mui-based-ui",
+  "version": "1.0.0",
+  "description": "Aleksandr's Petrov personal library using MUI, adopted for using with react-hook-form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/icons-material": "^5.15.7",
+    "@mui/material": "^5.15.7",
+    "@mui/x-date-pickers": "^6.19.3",
+    "dayjs": "^1.11.10",
+    "react": "^18.2.0",
+    "react-hook-form": "^7.50.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  }
+}
