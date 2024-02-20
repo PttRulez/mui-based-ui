@@ -4,9 +4,8 @@ import DatePickerInput, {
 import { Controller, FieldValues } from 'react-hook-form';
 import { ControlledField } from '@/types';
 
-interface FormDatePickerProps<T extends FieldValues>
-  extends ControlledField<T>,
-    Omit<DatePickerProps, 'name'> {}
+type FormDatePickerProps<T extends FieldValues> = ControlledField<T> &
+    Omit<DatePickerProps, 'name'>
 
 const FormDatePicker = <G extends FieldValues>({
   control,
@@ -16,7 +15,6 @@ const FormDatePicker = <G extends FieldValues>({
   ...datePickerProps
 }: FormDatePickerProps<G>) => {
   return (
-    // Делаем свойство rules по аналогии с TexField
     <Controller
       control={control}
       name={name}

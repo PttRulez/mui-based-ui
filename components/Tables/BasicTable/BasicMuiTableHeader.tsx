@@ -5,7 +5,7 @@ type Props = {
   children?: ReactNode;
 };
 
-const BasicTableHeader: FC<Props> = ({ children }) => {
+const BasicMuiTableHeader: FC<Props> = ({ children }) => {
   return (
     <TableHead
       sx={{
@@ -22,4 +22,4 @@ const BasicTableHeader: FC<Props> = ({ children }) => {
   );
 };
 
-export default BasicTableHeader;
+export default BasicMuiTableHeader;

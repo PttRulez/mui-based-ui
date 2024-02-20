@@ -2,14 +2,17 @@
   "name": "@pttrulez/mui-based-ui",
   "version": "1.0.0",
   "description": "Aleksandr's Petrov personal library using MUI, adopted for using with react-hook-form",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": false,
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.7",
     "@mui/material": "^5.15.7",
     "@mui/x-date-pickers": "^6.19.3",

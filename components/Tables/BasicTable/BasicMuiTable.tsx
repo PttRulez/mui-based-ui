@@ -13,7 +13,7 @@ interface Props {
   title?: string;
 };
 
-const BasicTable: FC<Props> = ({ children, sx, title }) => {
+const BasicMuiTable: FC<Props> = ({ children, sx, title }) => {
   return (
     <TableContainer
       component={Paper}
@@ -27,4 +27,4 @@ const BasicTable: FC<Props> = ({ children, sx, title }) => {
   );
 };
 
-export default BasicTable;
+export default BasicMuiTable;

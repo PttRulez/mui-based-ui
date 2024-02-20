@@ -47,7 +47,7 @@ const SelectInput: FC<SelectProps> = ({
         sx={{ paddingLeft: '20px' }}
         variant={variant}
         endAdornment={
-          value && handleClear ? (
+          value && handleClear ? ( 
             <InputAdornment
               position={'end'}
               sx={{
