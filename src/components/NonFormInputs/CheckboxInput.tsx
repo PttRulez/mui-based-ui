@@ -1,4 +1,4 @@
-import { ChangeEvent, FC } from 'react';
+import React, { ChangeEvent, FC } from 'react';
 import { Checkbox, FormControlLabel } from '@mui/material';
 
 export interface CheckboxInputProps {

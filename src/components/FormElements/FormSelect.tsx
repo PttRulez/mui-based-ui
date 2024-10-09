@@ -2,6 +2,7 @@ import { Controller, FieldValues } from 'react-hook-form';
 import SelectInput, { SelectProps } from '../NonFormInputs/SelectInput';
 import { SelectChangeEvent } from '@mui/material';
 import { ControlledField } from '@/types';
+import React from 'react';
 
 type FormSelectInputProps<T extends FieldValues> = ControlledField<T> &
   SelectProps;

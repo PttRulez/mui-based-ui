@@ -1,5 +1,6 @@
 import { TableCell } from '@mui/material';
 import { AdvancedTableColumn } from './AdvancedTable';
+import React from 'react';
 
 interface AdvancedCellProps<T extends Record<string, any>> {
   column: AdvancedTableColumn<T>;

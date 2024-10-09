@@ -3,6 +3,7 @@ import DatePickerInput, {
 } from '../NonFormInputs/DatePickerInput';
 import { Controller, FieldValues } from 'react-hook-form';
 import { ControlledField } from '@/types';
+import React from 'react';
 
 type FormDatePickerProps<T extends FieldValues> = ControlledField<T> &
     Omit<DatePickerProps, 'name'>

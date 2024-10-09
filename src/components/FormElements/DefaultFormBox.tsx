@@ -1,4 +1,4 @@
-import { FC, FormEventHandler, ReactNode } from 'react';
+import React, { FC, FormEventHandler, ReactNode } from 'react';
 import { Box, Stack } from '@mui/material';
 
 interface Props {

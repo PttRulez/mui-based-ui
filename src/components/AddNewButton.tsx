@@ -1,5 +1,5 @@
 import AddIcon from '@mui/icons-material/Add';
-import { FC, SyntheticEvent } from 'react';
+import React, { FC, SyntheticEvent } from 'react';
 import { RightBottomFab } from './styled/RightBottomFab';
 
 interface Props {

@@ -1,10 +1,14 @@
 {
   "name": "@pttrulez/mui-based-ui",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Aleksandr's Petrov personal library using MUI, adopted for using with react-hook-form",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && tsc-alias"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +26,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16"
+    "@types/node": "^20.11.16",
+    "tsc-alias": "^1.8.8"
   }
 }

@@ -7,8 +7,9 @@ import { IconButton, TextField } from '@mui/material';
 import ClearIcon from '@mui/icons-material/Clear';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import 'dayjs/locale/ru';
-import dayjs from '@/dayjs.config';
+import dayjs from '@/dayjs.config'
 import { Dayjs } from 'dayjs';
+import React from 'react'
 
 export type DatePickerProps = DesktopDatePickerProps<Dayjs> & {
   error?: boolean;
